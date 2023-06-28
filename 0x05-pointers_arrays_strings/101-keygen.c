@@ -11,11 +11,13 @@
 
 int main(void)
 {
-	int passi[100];
+	int pass[100];
 	int i, sum, n;
 
 	sum = 0;
+
 	srand(time(NULL));
+
 	for (i = 0; i < 100; i++)
 	{
 		pass[i] = rand() % 78;
@@ -32,3 +34,4 @@ int main(void)
 
 	return (0);
 }
+
