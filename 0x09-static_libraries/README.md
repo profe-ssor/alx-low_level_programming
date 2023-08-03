@@ -1,1 +1,0 @@
-Staitic Libraries
